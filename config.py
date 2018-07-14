@@ -3,6 +3,8 @@ from enum import Enum, auto
 
 PICKLE_FILE = ".pickle.positions"
 
+NUM_INVENTORY_SLOTS = 13
+
 
 class NGUButtons(Enum):
     EMPTY_AREA = auto()
@@ -66,3 +68,61 @@ class NGUButtons(Enum):
     MENU_ADVENTURE_SCROLLBAR = auto()
     MENU_ADVENTURE_SCROLLFOREST = auto()
     MENU_ADVENTURE_SCROLLCAVE = auto()
+
+
+class InventoryButtons(Enum):
+    INV_HEAD = auto()
+    INV_CHEST = auto()
+    INV_LEGS = auto()
+    INV_FEET = auto()
+    INV_WEAPON = auto()
+    INV_ACCESSORY1 = auto()
+    INV_ACCESSORY2 = auto()
+    INV_INFINITYCUBE = auto()
+    INV_SLOT1 = auto()
+    INV_SLOT2 = auto()
+    INV_SLOT3 = auto()
+    INV_SLOT4 = auto()
+    INV_SLOT5 = auto()
+    INV_SLOT6 = auto()
+    INV_SLOT7 = auto()
+    INV_SLOT8 = auto()
+    INV_SLOT9 = auto()
+    INV_SLOT10 = auto()
+    INV_SLOT11 = auto()
+    INV_SLOT12 = auto()
+    INV_SLOT13 = auto()
+    INV_SLOT14 = auto()
+    INV_SLOT15 = auto()
+    INV_SLOT16 = auto()
+    INV_SLOT17 = auto()
+
+
+class AdventureButtons(Enum):
+    PREVIOUS = auto()
+    NEXT = auto()
+    IDLEMODE = auto()
+    SCROLLBAR = auto()
+    FOREST = auto()
+    CAVE = auto()
+
+
+class AugmentationButtons(Enum):
+    SAFETYSCISSORS_PLUS = auto()
+    SAFETYSCISSORS_MINUS = auto()
+    DANGERSCISSORS_PLUS = auto()
+    DANGERSCISSORS_MINUS = auto()
+
+
+class TimeMachineButtons(Enum):
+    SPEED_PLUS = auto()
+    SPEED_MINUS = auto()
+
+
+class BloodMagicButtons(Enum):
+    TACK_PLUS = auto()
+    TACK_MINUS = auto()
+    TACK_CAP = auto()
+    CAST_SPELLS = auto()
+    BLOOD_BOOST = auto()
+    BLOOD_BOOST_AUTO = auto()
